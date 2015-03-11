@@ -3,7 +3,7 @@ Hodor hodor hodor hodor hodor, hodor hodor hodor. Hodor hodor hodor hodor. hodor
 
 ## Hodor Hodor
 Hodor hodor hodor hodor [hodor hodor hodor](https://nodejs.org/).
-- `npm install -g hodor`
+- `hodor hodor -hodor hodor`
 - Hodor hodor hodor hodor hodor hodor HodorHodor
 - `hodor hodor_hodor.hd`
 
