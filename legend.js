@@ -1,21 +1,21 @@
 var legend = [
   // standard js words
-  { search: 'break', replace: '!HODOR' },
-  { search: 'case', replace: '?HODOR' },
+  { search: 'break', replace: '!HODOR;;;' },
+  { search: 'case', replace: '?hooDooRrr' },
   { search: 'catch', replace: '!!!HODOR!!!' },
-  { search: 'else', replace: 'DOR' },
-  { search: 'for', replace: 'HODOR' },
-  { search: 'function', replace: 'hodorhodor' },
-  { search: 'if', replace: 'HO' },
+  { search: 'else', replace: 'hoDOR!!!' },
+  { search: 'for', replace: 'HODOR{}' },
+  { search: 'function', replace: 'HoDoRHoDoR' },
+  { search: 'if', replace: 'HOdor!!!' },
   { search: 'instanceof', replace: 'hodorhodorho' },
   { search: 'new', replace: 'HHHOOODDDDOOORRR!!!' },
-  { search: 'return', replace: 'hodor:' },
+  { search: 'return', replace: 'HODOR::' },
   { search: 'switch', replace: 'HODORHODOR' },
-  { search: 'throw', replace: 'dor' },
-  { search: 'try', replace: 'ho' },
-  { search: 'typeof', replace: 'hodorho' },
-  { search: 'var', replace: '#hodor' },
-  { search: 'while', replace: 'hodorhodorhodorhodor' },
+  { search: 'throw', replace: '!hOdor!' },
+  { search: 'try', replace: '!hodOr!' },
+  { search: 'typeof', replace: 'Hodor?????????!?!?!?!?' },
+  { search: 'var', replace: '$HODOR:' },
+  { search: 'while', replace: 'hodor............' },
   { search: 'console.log', replace: 'hodor.hod' },
 
   // most common letters that are not h, o, d or r
@@ -66,33 +66,33 @@ var legend = [
   { search: 'P', replace: 'hodor... ' },
 
   // "x-"
-  { search: 'T', replace: 'Hodor-' },
-  { search: 'B', replace: 'HODOR-' },
-  { search: 'F', replace: 'hodor-' },
+  { search: 'T', replace: 'Hodor- ' },
+  { search: 'B', replace: 'HODOR- ' },
+  { search: 'F', replace: 'hodor- ' },
 
-  // "x x "
-  { search: 'G', replace: 'Hodor Hodor ' },
-  { search: 'I', replace: 'HODOR HODOR ' },
-  { search: 'N', replace: 'hodor hodor ' },
+  // "prepending HoOodoOor"
+  { search: 'G', replace: 'HoOodoOorHodor ' },
+  { search: 'I', replace: 'HoOodoOorHODOR ' },
+  { search: 'N', replace: 'HoOodoOorhodor ' },
 
-  // "x x x "
-  { search: 'E', replace: 'Hodor Hodor Hodor ' },
-  { search: 'L', replace: 'HODOR HODOR HODOR ' },
-  { search: 'W', replace: 'hodor hodor hodor ' },
+  // "prepending Hooodorr"
+  { search: 'E', replace: 'HooodorrHodor ' },
+  { search: 'L', replace: 'HooodorrHODOR ' },
+  { search: 'W', replace: 'Hooodorrhodor ' },
 
-  // "x x x x "
-  { search: 'U', replace: 'Hodor Hodor Hodor Hodor ' },
-  { search: 'V', replace: 'HODOR HODOR HODOR HODOR ' },
-  { search: 'J', replace: 'hodor hodor hodor hodor ' },
+  // "appending Hooodorr"
+  { search: 'U', replace: 'HodorHooodorr ' },
+  { search: 'V', replace: 'HODORHooodorr ' },
+  { search: 'J', replace: 'hodorHooodorr ' },
 
-  // "x x x x x "
-  { search: 'K', replace: 'Hodor Hodor Hodor Hodor Hodor ' },
-  { search: 'Q', replace: 'HODOR HODOR HODOR HODOR HODOR ' },
-  { search: 'Y', replace: 'hodor hodor hodor hodor hodor ' },
+  // "appending HoOodoOor"
+  { search: 'K', replace: 'HodorHoOodoOor ' },
+  { search: 'Q', replace: 'HODORHoOodoOor ' },
+  { search: 'Y', replace: 'hodorHoOodoOor ' },
 
-  // "x x x x x x "
-  { search: 'Z', replace: 'Hodor Hodor Hodor Hodor Hodor Hodor ' },
-  { search: 'X', replace: 'HODOR HODOR HODOR HODOR HODOR HODOR ' }
+  // "prepending HoOodoOorHooodorr"
+  { search: 'Z', replace: 'HoOodoOorHooodorrHodor ' },
+  { search: 'X', replace: 'HoOodoOorHooodorrHODOR ' }
 ];
 
 module.exports = legend;
