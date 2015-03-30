@@ -15,8 +15,12 @@ program
   .option('-H, --hodor <hodor>', 'Hodor hodor hodor hodor hodor hodor')
   .parse(process.argv);
 
+var convert = function (file) {
+  console.log(file);
+};
+
 if( typeof(program.hodor) === 'undefined') {
   console.log('HODOR: hodor hodor hodor!'.red);
 } else {
-  console.log('HODOR: '.cyan + '\\-> '.white + program.hodor.white);
+  convert(program.hodor);
 }
