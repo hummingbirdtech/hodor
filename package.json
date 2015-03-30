@@ -1,0 +1,33 @@
+{
+  "name": "hodor",
+  "version": "1.0.0",
+  "description": "Hodor hodor hodor hodor hodor hodor.",
+  "main": "hodor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hummingbirdtech/hodor.git"
+  },
+  "keywords": [
+    "hodor",
+    "hodor",
+    "hodor",
+    "hodor"
+  ],
+  "author": "Hodor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hummingbirdtech/hodor/issues"
+  },
+  "bin": {
+    "hodor": "./bin/hodor"
+  },
+  "homepage": "https://github.com/hummingbirdtech/hodor",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "commander": "^2.7.1",
+    "pkginfo": "^0.3.0"
+  }
+}
