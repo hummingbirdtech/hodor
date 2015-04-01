@@ -22,7 +22,8 @@
     "url": "https://github.com/hummingbirdtech/hodor/issues"
   },
   "bin": {
-    "hodor": "./bin/hodor"
+    "hodor": "./bin/hodor",
+    "js2hd": "./bin/js2hd"
   },
   "homepage": "https://github.com/hummingbirdtech/hodor",
   "dependencies": {
