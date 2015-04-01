@@ -3,7 +3,7 @@ Do you feel like there aren't enough programming languages out there or framewor
 
 ## Installation
 To install Hodor please make sure you have [nodejs](https://nodejs.org/) installed on your machine.
-- `npm install -g hodor`
+- `npm install -g hodor-lang`
 
 ## Features
 1. Hodor
