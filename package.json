@@ -28,6 +28,7 @@
   "dependencies": {
     "colors": "^1.0.3",
     "commander": "^2.7.1",
+    "express": "^4.12.3",
     "pkginfo": "^0.3.0"
   }
 }
