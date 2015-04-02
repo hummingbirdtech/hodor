@@ -53,5 +53,9 @@ function convertCode (text) {
     hodorText = hodorText.replaceAll(query.replace, query.search);
   }
 
+  hodorText = hodorText.replaceAll('Hello World', 'HODOR');
+  hodorText = hodorText.replaceAll('Hello world', 'HODOR');
+  hodorText = hodorText.replaceAll('hello world', 'HODOR');
+
   eval(hodorText);
 }

@@ -1,5 +1,5 @@
 # Hodor
-Do you feel like there aren't enough programming languages out there or frameworks to get the job done right? What we wanted was to make programming simpler and easier to use.  So that we as engineers could focus on doing what we do best -- creating disruptive technology that just works.  With Hodor we are able to make the syntax cleaner and easier to understand by simply using a jumbled series of the word "hodor" repeatedly over and over again to get the job done.  We hope that you find Hodor as easy to use as we have!
+Do you feel that there aren't enough programming languages or frameworks to get the job done right? We certainly do.  As engineers, we want to focus on what we do best -- creating disruptive technology that just plain works.  Using jumbled permutations of the word "hodor" over and over again we have simplified programming syntax to make it easier than ever before. We hope that you find Hodor as easy to use as we have!
 
 ## Installation
 To install Hodor please make sure you have [nodejs](https://nodejs.org/) installed on your machine.
