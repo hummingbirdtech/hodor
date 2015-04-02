@@ -28,7 +28,7 @@ Now run the hello world example.
 ```bash
 hodor tests/helloworld.hd
 HODOR: \-> tests/helloworld.hd
-HODOR
+HODOR!
 ```
 
 ## Server
