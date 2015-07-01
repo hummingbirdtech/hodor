@@ -53,7 +53,7 @@ function convertCode (text) {
     hodorText = hodorText.replaceAll(query.replace, query.search);
   }
 
-  hodorText = hodorText.replace(/hello world/ig, 'HODOR');
+  hodorText = hodorText.replace(/hello,? world!?/ig, 'HODOR');
 
   eval(hodorText);
 }
