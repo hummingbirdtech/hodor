@@ -92,7 +92,26 @@ var legend = [
 
   // "prepending HoOodoOorHooodorr"
   { search: 'Z', replace: 'HoOodoOorHooodorrHodor ' },
-  { search: 'X', replace: 'HoOodoOorHooodorrHODOR ' }
+  { search: 'X', replace: 'HoOodoOorHooodorrHODOR ' },
+  //extend Hodor lang with hungarian unique characters
+  { search: 'á', replace: 'Hoodor ' },
+  { search: 'Á', replace: 'HOodor ' },
+  { search: 'é', replace: 'Hodoor ' },
+  { search: 'É', replace: 'HOdoor ' },
+  { search: 'ó', replace: 'Hooodor ' },
+  { search: 'Ó', replace: 'HOoodor ' },
+  { search: 'ü', replace: 'Hodooor ' },
+  { search: 'Ü', replace: 'HOdooor ' },
+  { search: 'ú', replace: 'Hoooodor ' },
+  { search: 'Ú', replace: 'HOooodor ' },
+  { search: 'ű', replace: 'Hodooor ' },
+  { search: 'Ű', replace: 'HOdooor ' },
+  { search: 'í', replace: 'Hooooodoor ' },
+  { search: 'Í', replace: 'HOoooodoor ' },
+  { search: 'ő', replace: 'HooooodoOOOor ' },
+  { search: 'Ő', replace: 'HOoooodoOOOor ' },
+  { search: 'ö', replace: 'HooooodoOOOOor ' },
+  { search: 'Ö', replace: 'HOoooodoOOOOor ' }
 ];
 
 module.exports = legend;
