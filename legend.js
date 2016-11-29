@@ -93,8 +93,7 @@ var legend = [
   // "prepending HoOodoOorHooodorr"
   { search: 'Z', replace: 'HoOodoOorHooodorrHodor ' },
   { search: 'X', replace: 'HoOodoOorHooodorrHODOR ' },
-  //extend Hodor lang with hungarian unique characters
-  { search: 'á', replace: 'Hoodor ' },
+  //Add Hungarian unique characters to Hodor language  { search: 'á', replace: 'Hoodor ' },
   { search: 'Á', replace: 'HOodor ' },
   { search: 'é', replace: 'Hodoor ' },
   { search: 'É', replace: 'HOdoor ' },
